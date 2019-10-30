@@ -22,6 +22,7 @@ public class Object_Repository {
 		if(Browsername.equals("chrome")){
 			driver= new ChromeDriver();
 			//driver.get("https://www.gmail.com/");
+			System.out.println("name");
 			
 		}else if (Browsername.equals("FF")){
 			driver= new FirefoxDriver();
